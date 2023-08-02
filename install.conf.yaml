@@ -8,6 +8,10 @@
     ~/.gitconfig: .gitconfig
     ~/.config/zellij:
       path: zellij
+      force: true
+    ~/.config/nvim:
+      path: nvim
+      force: true
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
