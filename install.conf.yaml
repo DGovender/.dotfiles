@@ -6,6 +6,8 @@
 
 - link:
     ~/.gitconfig: .gitconfig
+    ~/.config/zellij:
+      path: zellij
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
