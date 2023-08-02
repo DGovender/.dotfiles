@@ -1,0 +1,7 @@
+[user]
+	email = darien.govender@live.co.za
+	name = Darien Govender
+[init]
+    defaultbranch = main
+[url "git@github.com:"]
+    insteadOf = https://github.com/
