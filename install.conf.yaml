@@ -8,5 +8,9 @@
     ~/.gitconfig: .gitconfig
     ~/.config/niri: niri
 
+- omnipkg:
+    - install: [
+        helium-browser-bin]
+
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
