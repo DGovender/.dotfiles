@@ -12,6 +12,7 @@
     - install: [
         helium-browser-bin,
         zed,
+        mise,
         ghostty]
 
 - shell:
