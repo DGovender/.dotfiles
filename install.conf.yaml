@@ -10,7 +10,8 @@
 
 - omnipkg:
     - install: [
-        helium-browser-bin]
+        helium-browser-bin,
+        ghostty]
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
