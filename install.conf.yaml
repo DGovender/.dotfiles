@@ -11,6 +11,7 @@
 - omnipkg:
     - install: [
         helium-browser-bin,
+        zed,
         ghostty]
 
 - shell:
