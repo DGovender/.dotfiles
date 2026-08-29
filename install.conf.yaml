@@ -10,6 +10,7 @@
     ~/.config/starship.toml: starship.toml
     ~/.config/niri: niri
     ~/.config/ghostty: ghostty
+    ~/.config/zed: zed
 
 - omnipkg:
     - install: [
