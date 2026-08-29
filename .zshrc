@@ -1,7 +1,7 @@
 export EDITOR="vim"
 
-// Mise
+# Mise
 eval "$(mise activate zsh)"
 
-// Starship
+# Starship
 eval "$(starship init zsh)"
