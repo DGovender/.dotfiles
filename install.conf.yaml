@@ -6,6 +6,7 @@
 
 - link:
     ~/.gitconfig: .gitconfig
+    ~/.zshrc: .zshrc
     ~/.config/niri: niri
     ~/.config/ghostty: ghostty
 
