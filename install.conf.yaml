@@ -16,6 +16,7 @@
         zed,
         mise,
         sbctl,
+        starship,
         ghostty]
 
 - shell:
