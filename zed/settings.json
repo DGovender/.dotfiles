@@ -7,6 +7,33 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "cli_default_open_behavior": "existing_window",
+  "agent": {
+    "default_model": {
+      "provider": "openai-subscribed",
+      "model": "gpt-5.6-luna",
+      "enable_thinking": true,
+      "effort": "medium"
+    },
+    "commit_message_instructions": "Use the Conventional Commits format: <type>(<scope>): <description>.",
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "command_aliases": {
+    "gd": "git::Diff",
+    "gb": "git::Branch",
+    "gbd": "git::DiffBranch",
+    "gp": "git::Push",
+    "gcp": "git::CreatePullRequest",
+    "tsd": "editor::ToggleSplitDiff",
+    "zlog": "zed::OpenLog",
+    "newf": "workspace::NewFile",
+    "diffs": "editor::ToggleSelectedDiffHunks",
+    "crp": "workspace::CopyRelativePath",
+    "cpp": "workspace::CopyPath",
+    "reveal": "editor::RevealInFileManager",
+    "clank": "editor::CancelLanguageServerWork",
+  },
   "icon_theme": {
     "mode": "dark",
     "light": "Catppuccin Macchiato",
