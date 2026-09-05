@@ -19,6 +19,7 @@
         mise,
         sbctl,
         starship,
+        cloudflare-warp-bin,
         ghostty]
 
 - shell:
